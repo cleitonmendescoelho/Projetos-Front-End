@@ -43,7 +43,42 @@ h1{
 
 /*Footer*/
 
-#img1{
+footer{
+    position: relative;
+    top: 800px;
+    margin: 5px;
+    background-color:#bdc3c7;
+}
+
+.imagens img{
+    width: 40px;
+    border-radius:50%;
+}
+
+
+section{
+    display: flex;
+    justify-content:center ;
+}
+section p{
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+.imagens img{
+    margin: 10px;
+}
+
+
+
+
+
+
+/*#img1{
     position: relative;
     left: 880px;
     top:800px;
