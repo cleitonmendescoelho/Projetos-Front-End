@@ -41,27 +41,7 @@ h1{
     background-color: #0575E6;
 }
 
-/*CSS do body da página*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Footer*/
 
 #img1{
     position: relative;
@@ -84,3 +64,23 @@ h1{
     width: 40px;
     height: 40px;
 }
+footer img{
+    border-radius:50%;
+}
+#img1:hover{
+    transition: 0.2s;
+    top: 790px;
+}
+#img2:hover{
+    transition: 0.2s;
+    top: 790px;
+}
+#img3:hover{
+    transition: 0.2s;
+    top: 790px;
+    
+}
+
+
+
+/*Responsividade navigation*/
