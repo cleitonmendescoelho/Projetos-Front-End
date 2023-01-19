@@ -46,11 +46,15 @@ h1{
 footer{
     position: relative;
     top: 800px;
+    height: 800px;;
     background-color:#bdc3c7;
 }
 h2{
+    color: rgb(0,128,250,98);;
     text-align: center;
+    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 address{
     margin: 10px;
@@ -60,42 +64,89 @@ address p{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
+address a{
+    text-decoration:none;
+    color: rgb(0,0,0);
+}
+address a:hover{
+    color: #0575E6;
+    text-decoration: underline
+}
 address p:hover{
     color: white;
 }
+form{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    left: 780px;
+    bottom: 300px;
+    width: 350px;
+    
+}
+form input{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px dimgray;
+}
+textarea{
+    position: relative;
+    left: 10px;
+    width: 325px;
+    border: solid 1px dimgray;
+    border-radius: 5px;
+}
+form button{
+    width: 130px;
+    height: 35px;
+    margin: 25px;
+    border: none;
+    border-radius:5px;
+    color: white;
+    background-color: rgb(0,128,250,98);
+}
+form button:hover{
+    background-color: #0469C7;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 450px;
+}
 .imagens img{
     width: 40px;
+    margin: 12px;
     border-radius:50%;
 }
-.imagens img:hover{
-    transition: 0.3s;
-    position: relative;
-    bottom: 50px;
-}
-
-
 section{
     display: flex;
     justify-content:center ;
+    position: relative;
+    bottom: 375px;
 }
 section p{
     margin: 10px;
     font-size: 15px;
     text-align: center;
 }
-.imagens{
-    display: flex;
-    justify-content: center;
-}
-.imagens img{
-    margin: 12px;
-}
-#img1:hover{
-    transition: 0.3s;
-    position: relative;
-    bottom: 50px;
-}
-
-
 
 /*Responsividade navigation*/
+
+
+
+ion-icon{
+
+    color: #0469C7;
+}
+.mensage{
+    text-align: center;
+}
+iframe{
+    position: relative;
+    bottom: 800px;
+    margin: 20px;
+    float: right;
+
+}
