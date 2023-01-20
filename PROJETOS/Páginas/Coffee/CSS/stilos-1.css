@@ -38,6 +38,12 @@ h1{
 
 /*CSS do rodapé*/
 
+footer{
+    display: flex;
+    background-color: aqua;
+    
+}
+
 #logo1{
     position: relative;
     left: 30px;
