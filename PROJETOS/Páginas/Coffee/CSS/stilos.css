@@ -47,7 +47,10 @@ footer{
     position: relative;
     top: 800px;
     height: 800px;;
-    background-color:#bdc3c7;
+    background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h2{
     color: rgb(0,128,250,98);;
@@ -56,11 +59,21 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 address{
+    display: flex;
+    flex-direction:column;
     margin: 10px;
     padding: 50px;
 }
-address p{
+address img{
+    width: 30px;
+    padding: 10px;
+    color: #0469C7;
+    
+}
+
+/*address p{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -74,13 +87,13 @@ address a:hover{
 }
 address p:hover{
     color: white;
-}
+}*/
 form{
     display: flex;
     flex-direction:column;
     position: relative;
     left: 780px;
-    bottom: 300px;
+    bottom: 250px;
     width: 350px;
     
 }
@@ -89,6 +102,9 @@ form input{
     padding: 20px;
     border-radius: 5px;
     border: solid 1px dimgray;
+}
+iframe{
+    position: relative;
 }
 textarea{
     position: relative;
@@ -134,12 +150,6 @@ section p{
 
 /*Responsividade navigation*/
 
-
-
-ion-icon{
-
-    color: #0469C7;
-}
 .mensage{
     text-align: center;
 }
@@ -150,3 +160,10 @@ iframe{
     float: right;
 
 }
+
+
+
+
+E-mail: cafeteria.web@gmail.com
+Telefone:(61)985632147
+Cidade:Brasilia - DF
