@@ -1,4 +1,4 @@
-/* CSS do Front-End principal / navegação */
+/*CSS do Header*/
 
 body{
     padding: 0;
@@ -41,16 +41,21 @@ h1{
     background-color: #0575E6;
 }
 
-/*Footer*/
+/*CSS do Main*/
+
+
+
+/**/
+
+/*CSS do Footer*/
 
 footer{
     position: relative;
     top: 800px;
-    height: 800px;;
-    background: #3E5151;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    height: 730px;;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h2{
     color: rgb(0,128,250,98);;
@@ -63,31 +68,16 @@ h2{
 address{
     display: flex;
     flex-direction:column;
+    position: relative;
+    top: 75px;
     margin: 10px;
     padding: 50px;
 }
 address img{
     width: 30px;
     padding: 10px;
-    color: #0469C7;
-    
+    color: #0469C7;  
 }
-
-/*address p{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-address a{
-    text-decoration:none;
-    color: rgb(0,0,0);
-}
-address a:hover{
-    color: #0575E6;
-    text-decoration: underline
-}
-address p:hover{
-    color: white;
-}*/
 form{
     display: flex;
     flex-direction:column;
@@ -101,7 +91,7 @@ form input{
     margin: 10px;
     padding: 20px;
     border-radius: 5px;
-    border: solid 1px dimgray;
+    border: solid 1px rgb(0,0,0);
 }
 iframe{
     position: relative;
@@ -110,7 +100,7 @@ textarea{
     position: relative;
     left: 10px;
     width: 325px;
-    border: solid 1px dimgray;
+    border: solid 1px rgb(0,0,0);
     border-radius: 5px;
 }
 form button{
@@ -129,7 +119,8 @@ form button:hover{
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 450px;
+    left: 300px;
+    bottom: 300px;
 }
 .imagens img{
     width: 40px;
@@ -138,9 +129,11 @@ form button:hover{
 }
 section{
     display: flex;
-    justify-content:center ;
+    flex-wrap: wrap;
+    justify-content:center;
     position: relative;
-    bottom: 375px;
+    left: 300px;
+    bottom: 310px;
 }
 section p{
     margin: 10px;
@@ -148,7 +141,6 @@ section p{
     text-align: center;
 }
 
-/*Responsividade navigation*/
 
 .mensage{
     text-align: center;
@@ -161,9 +153,4 @@ iframe{
 
 }
 
-
-
-
-E-mail: cafeteria.web@gmail.com
-Telefone:(61)985632147
-Cidade:Brasilia - DF
+/*Responsividade navigation*/
