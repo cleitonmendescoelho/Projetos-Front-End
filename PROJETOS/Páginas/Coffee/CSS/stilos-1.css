@@ -4,6 +4,7 @@ body{
     margin: 0px;
 }
 h1{
+    text-align:center;
     margin: 25px;
 }
 .cabeçalho{
@@ -85,7 +86,6 @@ h2{
     margin: 35px;
     top: 45px;
     font-family: sans-serif;
-
 }
 #img1{
     position: relative;
