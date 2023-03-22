@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+    color: rgb(0,0,0);
+}
+nav{
+    float:right;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}
+li{
+    position: relative;
+    bottom: 100px;
+    margin: 7px;
+    list-style: none;
+    font-size:22px;
+}
+li:hover{
+    color: rgba(245, 245, 245, 0.349);
+}
+#icone{
+    font-size: 30px;
+}
+.filtro{
+    border: solid 1px black;
+    width: 300px;
+    height: 800px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    float: left;
+}
+
