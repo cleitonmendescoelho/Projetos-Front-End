@@ -7,7 +7,7 @@ body{
 }
 main{
     width: 500px;
-    height: 500px;
+    height: 550px;
     border-radius: 30px;
     background: #30E8BF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -61,15 +61,21 @@ nav a:hover{
 .entrar button:hover{
     background-color: #FF8235;
 }
-footer{
-    width: 500px;
-    padding: 150px;
-}
-.lgpd{
+.midias{
     display: flex;
+    flex-direction:column;
     justify-content: center;
-    position: relative;
-    bottom: 50px;
-    
+    align-items: center;
+
+}
+.midias a button{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    background-color:rgba(32, 32, 236, 0.781);
+    border-radius: 30px;
+}
+.midias a button img{
+    width: 30px;
 }
 
